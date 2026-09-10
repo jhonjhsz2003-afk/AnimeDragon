@@ -20,7 +20,7 @@ Exemplo mínimo:
   "id": "minha-api",
   "name": "Minha API",
   "enabled": true,
-  "url": "https://exemplo.com/api/animes?page={page}&limit={limit}",
+  "url": "https://graphql.anilist.co",
   "method": "GET",
   "headers": {},
   "itemsPath": "data.items",
