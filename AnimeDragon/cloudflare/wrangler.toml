@@ -10,11 +10,11 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "animedragon-db"
-database_id = "COLOQUE_O_ID_DA_D1_AQUI"
+database_id = "fdf0ea3e-42f9-46a3-b92f-e8b9632cca63"
 
 [triggers]
 crons = ["0 */6 * * *"]
 
 [vars]
 SITE_URL = "https://SEU-SUBDOMINIO.workers.dev"
-ADMIN_EMAIL = "troque@seuemail.com"
+ADMIN_EMAIL = "jhonjhsz2003@gmail.com"
