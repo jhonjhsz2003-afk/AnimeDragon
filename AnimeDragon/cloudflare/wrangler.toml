@@ -17,4 +17,4 @@ crons = ["0 */6 * * *"]
 
 [vars]
 SITE_URL = "https://animedragon.jhonjhsz2003.workers.dev"
-ADMIN_EMAIL = "troque@seuemail.com"
+ADMIN_EMAIL = "jhonjhsz2003@gmail.com"
