@@ -1,0 +1,20 @@
+name = "animedragon"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+workers_dev = true
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "animedragon-db"
+database_id = "COLOQUE_O_ID_DA_D1_AQUI"
+
+[triggers]
+crons = ["0 */6 * * *"]
+
+[vars]
+SITE_URL = "https://SEU-SUBDOMINIO.workers.dev"
+ADMIN_EMAIL = "troque@seuemail.com"
