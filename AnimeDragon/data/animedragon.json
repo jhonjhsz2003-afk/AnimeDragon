@@ -1,0 +1,611 @@
+{
+  "settings": {
+    "siteName": "AnimeDragon",
+    "tagline": "Seu universo de animes.",
+    "accent": "#ef1523",
+    "secondary": "#ff3b30",
+    "heroAutoplay": true,
+    "announcement": "Novo: organize seu catálogo inteiro pelo painel administrativo.",
+    "navigation": [
+      {
+        "id": "home",
+        "label": "Início",
+        "href": "#/"
+      },
+      {
+        "id": "anime",
+        "label": "Animes",
+        "href": "#/explore"
+      },
+      {
+        "id": "movies",
+        "label": "Filmes",
+        "href": "#/explore?type=Movie"
+      },
+      {
+        "id": "calendar",
+        "label": "Lançamentos",
+        "href": "#/calendar"
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@animedragon.local",
+      "passwordHash": "scrypt$5575d187fccae653ec427ecf44fd70b9$bbcea70602d94e5a7dc8dfdfba1724adb8489dfdae0dff6d05f66977833ba8a3c64c6a4b0d8c6c9e5d12048649b47c5789d271da41df529d7ccf8468fed67f67",
+      "role": "admin",
+      "blocked": false,
+      "createdAt": "2026-09-10T02:41:23.816Z",
+      "favorites": [],
+      "history": [],
+      "lastLogin": null
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ação",
+      "slug": "acao",
+      "color": "#ef1523"
+    },
+    {
+      "id": 2,
+      "name": "Aventura",
+      "slug": "aventura",
+      "color": "#22c55e"
+    },
+    {
+      "id": 3,
+      "name": "Comédia",
+      "slug": "comedia",
+      "color": "#eab308"
+    },
+    {
+      "id": 4,
+      "name": "Fantasia",
+      "slug": "fantasia",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": 5,
+      "name": "Romance",
+      "slug": "romance",
+      "color": "#ec4899"
+    },
+    {
+      "id": 6,
+      "name": "Shounen",
+      "slug": "shounen",
+      "color": "#3b82f6"
+    },
+    {
+      "id": 7,
+      "name": "Isekai",
+      "slug": "isekai",
+      "color": "#14b8a6"
+    },
+    {
+      "id": 8,
+      "name": "Mistério",
+      "slug": "misterio",
+      "color": "#64748b"
+    }
+  ],
+  "anime": [
+    {
+      "id": 1,
+      "title": "Dragonfall: Awakening",
+      "slug": "dragonfall-awakening",
+      "synopsis": "Uma antiga energia dracônica desperta e arrasta um jovem para uma guerra entre reinos, magia e criaturas lendárias.",
+      "cover": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=85",
+      "banner": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+      "year": 2026,
+      "status": "Ongoing",
+      "score": 9.4,
+      "type": "TV",
+      "episodes": 24,
+      "featured": true,
+      "categories": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "views": 18432,
+      "createdAt": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Crimson Ronin",
+      "slug": "crimson-ronin",
+      "synopsis": "Em uma cidade neon, um ronin marcado pelo passado recebe uma missão capaz de mudar toda a ordem do submundo.",
+      "cover": "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=800&q=85",
+      "banner": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+      "year": 2025,
+      "status": "Finished",
+      "score": 9.1,
+      "type": "TV",
+      "episodes": 12,
+      "featured": true,
+      "categories": [
+        1,
+        5,
+        6
+      ],
+      "views": 14291,
+      "createdAt": "2026-09-06T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Moonlit Academy",
+      "slug": "moonlit-academy",
+      "synopsis": "Uma academia secreta treina jovens capazes de controlar magia lunar antes que uma guerra esquecida retorne.",
+      "cover": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=800&q=85",
+      "banner": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1800&q=85",
+      "year": 2026,
+      "status": "Ongoing",
+      "score": 8.9,
+      "type": "TV",
+      "episodes": 10,
+      "featured": true,
+      "categories": [
+        4,
+        5,
+        7
+      ],
+      "views": 11202,
+      "createdAt": "2026-09-05T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "title": "Neon Circuit",
+      "slug": "neon-circuit",
+      "synopsis": "Pilotos rivais disputam a corrida mais perigosa do futuro, onde mechas e tecnologia proibida valem mais que qualquer prêmio.",
+      "cover": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=800&q=85",
+      "banner": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1f?auto=format&fit=crop&w=1800&q=85",
+      "year": 2024,
+      "status": "Finished",
+      "score": 8.7,
+      "type": "Movie",
+      "episodes": 1,
+      "featured": false,
+      "categories": [
+        1,
+        2,
+        6
+      ],
+      "views": 9801,
+      "createdAt": "2026-08-31T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "title": "Beyond The Abyss",
+      "slug": "beyond-the-abyss",
+      "synopsis": "Uma equipe de exploradores desce cada vez mais fundo em um mundo onde cada nível revela uma nova regra.",
+      "cover": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=85",
+      "banner": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=85",
+      "year": 2025,
+      "status": "Ongoing",
+      "score": 8.8,
+      "type": "TV",
+      "episodes": 18,
+      "featured": false,
+      "categories": [
+        2,
+        4,
+        8
+      ],
+      "views": 8704,
+      "createdAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "title": "Skyline Hearts",
+      "slug": "skyline-hearts",
+      "synopsis": "Dois estudantes descobrem que seus sonhos estão conectados a uma cidade que só existe depois da meia-noite.",
+      "cover": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=85",
+      "banner": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=1800&q=85",
+      "year": 2026,
+      "status": "Ongoing",
+      "score": 8.6,
+      "type": "TV",
+      "episodes": 8,
+      "featured": false,
+      "categories": [
+        3,
+        5
+      ],
+      "views": 7118,
+      "createdAt": "2026-08-28T00:00:00.000Z"
+    }
+  ],
+  "episodes": [
+    {
+      "id": 1789008083876,
+      "animeId": 1,
+      "season": 1,
+      "episode": 1,
+      "title": "O despertar",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083877,
+      "animeId": 1,
+      "season": 1,
+      "episode": 2,
+      "title": "Um novo caminho",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083878,
+      "animeId": 1,
+      "season": 1,
+      "episode": 3,
+      "title": "A primeira missão",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083879,
+      "animeId": 1,
+      "season": 1,
+      "episode": 4,
+      "title": "Sinais no céu",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083880,
+      "animeId": 1,
+      "season": 1,
+      "episode": 5,
+      "title": "A grande virada",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083881,
+      "animeId": 1,
+      "season": 1,
+      "episode": 6,
+      "title": "Antes do amanhecer",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083976,
+      "animeId": 2,
+      "season": 1,
+      "episode": 1,
+      "title": "O despertar",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083977,
+      "animeId": 2,
+      "season": 1,
+      "episode": 2,
+      "title": "Um novo caminho",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083978,
+      "animeId": 2,
+      "season": 1,
+      "episode": 3,
+      "title": "A primeira missão",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083979,
+      "animeId": 2,
+      "season": 1,
+      "episode": 4,
+      "title": "Sinais no céu",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083980,
+      "animeId": 2,
+      "season": 1,
+      "episode": 5,
+      "title": "A grande virada",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008083981,
+      "animeId": 2,
+      "season": 1,
+      "episode": 6,
+      "title": "Antes do amanhecer",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084076,
+      "animeId": 3,
+      "season": 1,
+      "episode": 1,
+      "title": "O despertar",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084077,
+      "animeId": 3,
+      "season": 1,
+      "episode": 2,
+      "title": "Um novo caminho",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084078,
+      "animeId": 3,
+      "season": 1,
+      "episode": 3,
+      "title": "A primeira missão",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084079,
+      "animeId": 3,
+      "season": 1,
+      "episode": 4,
+      "title": "Sinais no céu",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084080,
+      "animeId": 3,
+      "season": 1,
+      "episode": 5,
+      "title": "A grande virada",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084081,
+      "animeId": 3,
+      "season": 1,
+      "episode": 6,
+      "title": "Antes do amanhecer",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084176,
+      "animeId": 4,
+      "season": 1,
+      "episode": 1,
+      "title": "O despertar",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084276,
+      "animeId": 5,
+      "season": 1,
+      "episode": 1,
+      "title": "O despertar",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084277,
+      "animeId": 5,
+      "season": 1,
+      "episode": 2,
+      "title": "Um novo caminho",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084278,
+      "animeId": 5,
+      "season": 1,
+      "episode": 3,
+      "title": "A primeira missão",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084279,
+      "animeId": 5,
+      "season": 1,
+      "episode": 4,
+      "title": "Sinais no céu",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084280,
+      "animeId": 5,
+      "season": 1,
+      "episode": 5,
+      "title": "A grande virada",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084281,
+      "animeId": 5,
+      "season": 1,
+      "episode": 6,
+      "title": "Antes do amanhecer",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084376,
+      "animeId": 6,
+      "season": 1,
+      "episode": 1,
+      "title": "O despertar",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084377,
+      "animeId": 6,
+      "season": 1,
+      "episode": 2,
+      "title": "Um novo caminho",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084378,
+      "animeId": 6,
+      "season": 1,
+      "episode": 3,
+      "title": "A primeira missão",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084379,
+      "animeId": 6,
+      "season": 1,
+      "episode": 4,
+      "title": "Sinais no céu",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084380,
+      "animeId": 6,
+      "season": 1,
+      "episode": 5,
+      "title": "A grande virada",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=85"
+    },
+    {
+      "id": 1789008084381,
+      "animeId": 6,
+      "season": 1,
+      "episode": 6,
+      "title": "Antes do amanhecer",
+      "duration": "24 min",
+      "language": "Legendado",
+      "streamUrl": "",
+      "thumbnail": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=85"
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "title": "Continuando a jornada",
+      "subtitle": "Retome de onde parou",
+      "type": "continue",
+      "enabled": true,
+      "position": 1
+    },
+    {
+      "id": 2,
+      "title": "Em alta agora",
+      "subtitle": "Os mais vistos pela comunidade",
+      "type": "trending",
+      "enabled": true,
+      "position": 2
+    },
+    {
+      "id": 3,
+      "title": "Novos episódios",
+      "subtitle": "Direto do catálogo",
+      "type": "latestEpisodes",
+      "enabled": true,
+      "position": 3
+    },
+    {
+      "id": 4,
+      "title": "Ação & Shounen",
+      "subtitle": "Batalhas, rivalidades e energia",
+      "type": "category",
+      "categoryId": 6,
+      "enabled": true,
+      "position": 4
+    },
+    {
+      "id": 5,
+      "title": "Descobertas da semana",
+      "subtitle": "Escolhidos pelo algoritmo",
+      "type": "featured",
+      "enabled": true,
+      "position": 5
+    }
+  ],
+  "logs": [],
+  "comments": []
+}
