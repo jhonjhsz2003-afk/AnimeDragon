@@ -16,5 +16,5 @@ database_id = "fdf0ea3e-42f9-46a3-b92f-e8b9632cca63"
 crons = ["0 */6 * * *"]
 
 [vars]
-SITE_URL = "https://SEU-SUBDOMINIO.workers.dev"
+SITE_URL = "https://animedragon.jhonjhsz2003.workers.dev"
 ADMIN_EMAIL = "troque@seuemail.com"
